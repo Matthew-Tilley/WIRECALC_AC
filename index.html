@@ -9,8 +9,20 @@
         
         <div id="app">
             
-            <p>{{blurp}}</p>        
+            <label>120 volts</label>
+            <input type ="radio" 
+                   name="voltage" 
+                   value="120"
+                   v-model="picked"> 
             
+            <label>240 volts</label>
+            <input type ="radio" 
+                   name="voltage" 
+                   value="240"
+                   v-model="picked">
+            
+                        
+            <span>{{picked}}</span>
             
         </div>
         
