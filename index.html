@@ -38,9 +38,16 @@
                 
             </select>
             
-           
             
-          
+            <div v-for="breaker in breakers" :key="breakers.productCode">
+                
+                <div v-on:mouseover="productDisplay">
+                
+                </div>
+            
+            </div>
+            
+           
             
         </div>
         
