@@ -80,10 +80,8 @@ var app = new Vue({
         
         productDisplay(breaker){
             
-            if (this.breaker == 15)
-                {
-                    console.log(this.breaker);
-                }
+            console.log(this.breaker);
+        
         }
         
         
