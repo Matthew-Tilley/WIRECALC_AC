@@ -78,12 +78,14 @@ var app = new Vue({
     methods: {
         
         
-        productDisplay(breaker){
+        let x = productDisplay(breaker){
             
-            console.log(this.breaker);
+            return this.breaker;
         
         }
         
+    
+        console.log(x);
         
     }
     
