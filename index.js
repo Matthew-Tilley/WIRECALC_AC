@@ -78,11 +78,11 @@ var app = new Vue({
     methods: {
         
         
-        productDisplay(){
+        productDisplay(breaker){
             
             if (this.breaker == 15)
                 {
-                    console.log("LKJALKJAD");
+                    console.log(this.breaker);
                 }
         }
         
