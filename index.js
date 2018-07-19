@@ -133,8 +133,6 @@ var app = new Vue({
         current knowledge!!!  :(
         
         
-        
-        
         */
         
         
