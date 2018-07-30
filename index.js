@@ -9,6 +9,8 @@ var app = new Vue({
         
         
         breaker: '',
+
+        blurp:"LKJLKJLKJ",
         
         
         breakers: [
