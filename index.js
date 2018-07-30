@@ -12,9 +12,9 @@ var app = new Vue({
         amperage: null,
 
         voltage: null,
-              
 
-        
+        maxWatts: null,
+
         
         
         breakers: [
@@ -90,11 +90,19 @@ var app = new Vue({
         }
 
         
-    
-        
-        
     }
     
     
     
 })
+
+
+
+let x = function (){
+    return "BLURP";
+}
+
+
+console.log(x());
+
+
