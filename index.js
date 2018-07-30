@@ -11,7 +11,8 @@ var app = new Vue({
 
         amperage: null,
 
-        voltage: null,      
+        voltage: null,
+              
 
         
         
@@ -85,7 +86,7 @@ var app = new Vue({
         
         maximumWattage: function() {
 
-            console.log(this.amperage, this.voltage);
+            console.log(this.amperage * this.voltage);
         }
 
         
