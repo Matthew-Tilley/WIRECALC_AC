@@ -19,7 +19,8 @@
                         role="button"
                         name="voltage" 
                         value="120"
-                        v-model="voltage"> 
+                        v-model="voltage"
+                        v-on:change="maximumWattage"> 
                 
                 <label>120 volts</label>
 
@@ -32,7 +33,8 @@
                         role="button"
                         name="voltage" 
                         value="240"
-                        v-model="voltage">
+                        v-model="voltage"
+                        v-on:change="maximumWattage">
 
                 <label>240 volts</label>
 
