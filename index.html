@@ -10,35 +10,52 @@
         
         <div id="app">
             
-            <label>120 volts</label>
-            <input type ="radio" 
-                   name="voltage" 
-                   value="120"
-                   v-model="picked"> 
             
-            <label>240 volts</label>
-            <input type ="radio" 
-                   name="voltage" 
-                   value="240"
-                   v-model="picked">
+
+            <div class="ui radio checkbox">
+
+                <input  type ="radio" 
+                        role="button"
+                        name="voltage" 
+                        value="120"
+                        v-model="picked"> 
+                
+                <label>120 volts</label>
+
+            </div>
             
-                        
-            <select v-model="breaker"  v-on:change="productDisplay">
-                
-                <option value="15"> 15 </option>
-                
-                <option value="20"> 20 </option>
-                
-                <option value="25"> 25 </option>
-                
-                <option value="30"> 30 </option>
-                
-                <option value="40"> 40 </option>
-                
-                <option value="50"> 50 </option>
-                
-            </select>
             
+            <div class="ui radio checkbox">
+
+                <input type ="radio" 
+                    name="voltage" 
+                    value="240"
+                    v-model="picked">
+
+                <label>240 volts</label>
+
+            </div>
+
+                
+            <div class="ui dropdown"> 
+
+                <select v-model="breaker"  v-on:change="productDisplay">
+                    
+                    <option value="15"> 15 </option>
+                    
+                    <option value="20"> 20 </option>
+                    
+                    <option value="25"> 25 </option>
+                    
+                    <option value="30"> 30 </option>
+                    
+                    <option value="40"> 40 </option>
+                    
+                    <option value="50"> 50 </option>
+                    
+                </select>
+
+            </div>
             
             <div v-for="breaker in breakers" :key="breakers.productCode">
                 
