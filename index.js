@@ -5,12 +5,12 @@ var app = new Vue({
     
     data: {
         
-        picked: '',
+        picked: null,
         
         
-        breaker: '',
+        breaker: null,
 
-        amperage: '',
+        amperage: null,
 
         
         
