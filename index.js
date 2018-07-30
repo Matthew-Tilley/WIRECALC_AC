@@ -10,6 +10,8 @@ var app = new Vue({
         
         breaker: '',
 
+        amperage: '',
+
         
         
         
@@ -80,7 +82,11 @@ var app = new Vue({
     methods: {
         
         
-        
+        maximumWattage: function() {
+
+            console.log(this.amperage);
+        }
+
         
     
         
