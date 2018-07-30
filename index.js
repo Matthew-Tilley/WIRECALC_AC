@@ -7,10 +7,11 @@ var app = new Vue({
         
         picked: null,
         
-        
         breaker: null,
 
         amperage: null,
+
+        voltage: null,
 
         
         
