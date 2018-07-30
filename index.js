@@ -85,10 +85,10 @@ var app = new Vue({
         }
         
         
-        let x = productDisplay();
+        /* let x = productDisplay();
         
         
-        console.log(x);
+        console.log(x); */
         
         
         /*
