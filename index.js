@@ -80,30 +80,14 @@ var app = new Vue({
     },  /* END OF "DATA" SECTION */
     
     
-    /* QUESTION FOR KATIE 07/31/2018
-    
-    Okay...this is a perfect example of where I get confused with
-    function returns.
-    
-    The calculation below determines maximum wattage for a given 
-    circuit rating.  Problem is, I can get the resulting value "out" 
-    via console.log() but...obviously can't *DO* anything but *VIEW*
-    that output.
-
-    I have also tried assigning it to a variable, but that doesn't
-    seem to work.  (That way, the variable would "equal" whatever
-    it's function comes up with, in terms of a value.)  It's like 
-    the value I need is "stuck" inside there and I can't figure
-    out how to get it / do anything else with it.
-    
-    */
-    
     methods: {
         
         
         maximumWattage: function() {
 
-            return this.maxWatts = (this.amperage * this.voltage);
+            return this.maxWatts = (this.amperage * this.voltage) * .8;
+            // Calculating 80% of absolute maximum for safety margin.
+
         }
 
         
