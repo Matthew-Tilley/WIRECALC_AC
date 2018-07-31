@@ -90,15 +90,11 @@ var app = new Vue({
         }, 
 
         updateProduct: function(index) {
-            console.log("LKAJSDKLJASD");
+            this.selected = index;
+            console.log(index);
         },
 
-        test: function() {
-            if (this.amperage = this.breakers.productAmperage)
-            {
-                this.breakers.productImage.show();
-            }
-        }
+       
         
     },
 
