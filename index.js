@@ -94,7 +94,10 @@ var app = new Vue({
         },
 
         test: function() {
-            console.log("8888888888888888888888888888");
+            if (this.amperage = this.breakers.productAmperage)
+            {
+                this.breakers.productImage.show();
+            }
         }
         
     },
