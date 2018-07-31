@@ -87,6 +87,10 @@ var app = new Vue({
             return this.maxWatts = (this.amperage * this.voltage) * .8;
             // Calculating 80% of absolute maximum for a margin of safety.
 
+        }, 
+
+        updateProduct: function() {
+            console.log("LKAJSDKLJASD");
         }
         
     },
