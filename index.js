@@ -5,7 +5,7 @@ var app = new Vue({
     
     data: {
         
-        picked: null,
+        selected: 0,
         
         breaker: null,
 
@@ -82,14 +82,12 @@ var app = new Vue({
     
     methods: {
         
-        
         maximumWattage: function() {
 
             return this.maxWatts = (this.amperage * this.voltage) * .8;
             // Calculating 80% of absolute maximum for a margin of safety.
 
         }
-
         
     },
 
