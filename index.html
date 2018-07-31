@@ -48,7 +48,7 @@
 
                 <select class=          "ui selection dropdown fluid"
                         v-model=        "amperage"  
-                        v-on:change=    "maximumWattage(), updateProduct()">
+                        v-on:change=    "maximumWattage(), updateProduct(), test()">
                     
                     <option value="15"> 15 </option>
                     
@@ -84,7 +84,7 @@
                 
             
             
-            <div    v-for="breaker in breakers" 
+            <div    v-for="(breaker, index) in breakers" 
                     :key="breakers.productCode">
                 
                 <div >

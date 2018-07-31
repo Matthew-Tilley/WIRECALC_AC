@@ -89,8 +89,12 @@ var app = new Vue({
 
         }, 
 
-        updateProduct: function() {
+        updateProduct: function(index) {
             console.log("LKAJSDKLJASD");
+        },
+
+        test: function() {
+            console.log("8888888888888888888888888888");
         }
         
     },
