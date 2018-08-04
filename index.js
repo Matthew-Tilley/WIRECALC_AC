@@ -5,7 +5,7 @@ var app = new Vue({
     
     data: {
         
-        selected: 0,
+        selected: null,
         
         breaker: null,
 
@@ -89,11 +89,14 @@ var app = new Vue({
         }, 
 
 
-        updateProduct: function() {
+        updateSelection: function() {
 
-            this.image = this.breakers.productImage;
+            console.log(this.amperage + " IS THE AMPERAGE");
 
         },
+
+
+
 
      
        
