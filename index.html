@@ -84,11 +84,11 @@
                 
 
             
-                <div v-for="variant in variants">
+                <div v-for="variant in variants" v-bind:key="variant.variantId">
                     <p>{{variant.variantColor}}</p>
                 </div>
 
-                <div class = "ui divider"> </div>
+                <div class = "ui divider"></div>
 
                 <div v-for="detail in details">
                     <p>{{detail}}</p>
