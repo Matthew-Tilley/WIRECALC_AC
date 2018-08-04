@@ -75,6 +75,29 @@ var app = new Vue({
             }
                 
         ],  /* END OF "BREAKERS" ARRAY */
+
+
+
+        variants [
+
+            {
+                variantId: 1234,
+                details: ["This is 1234"],
+                image: "ASSETS/IMAGES/HOM150.jpeg"
+
+            }
+
+
+            {
+                variantId: 5678,
+                details: ["This is 5678"],
+                image: "ASSETS/IMAGES/HOM115.jpeg"
+
+            }
+
+
+        ],
+
               
     },  /* END OF "DATA" SECTION */
     
