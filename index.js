@@ -15,7 +15,7 @@ var app = new Vue({
 
         maxWatts: null,
 
-        image: null,
+        image: "ASSETS/IMAGES/BG-SUNFLW.jpeg",
 
         
         
@@ -84,7 +84,7 @@ var app = new Vue({
                 variantId: 1234,
                 details: ["This is 1234"],
                 variantColor: "blue",
-                image: "ASSETS/IMAGES/HOM150.jpeg"
+                variantImage: "ASSETS/IMAGES/HOM150.jpeg"
 
             },
 
@@ -93,7 +93,7 @@ var app = new Vue({
                 variantId: 5678,
                 details: ["This is 5678"],
                 variantColor: "green",
-                image: "ASSETS/IMAGES/HOM115.jpeg"
+                variantImage: "ASSETS/IMAGES/HOM115.jpeg"
 
             }
 
@@ -114,6 +114,11 @@ var app = new Vue({
             // Calculating 80% of absolute maximum for a margin of safety.
 
         }, 
+
+        updateProduct: function(variantImage) {
+            this.image = variantImage;
+            console.log(":LKJLKJALKJLKJLK");
+        }
 
 
  

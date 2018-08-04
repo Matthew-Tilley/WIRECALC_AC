@@ -85,7 +85,7 @@
 
             
                 <div v-for="variant in variants" v-bind:key="variant.variantId">
-                    <p>{{variant.variantColor}}</p>
+                    <p @mouseover="updateProduct(variant.variantImage)">{{variant.variantColor}}</p>
                 </div>
 
                 <div class = "ui divider"></div>
@@ -93,6 +93,8 @@
                 <div v-for="detail in details">
                     <p>{{detail}}</p>
                 </div>
+
+                <div>{{image}}</div>
             
             
          
