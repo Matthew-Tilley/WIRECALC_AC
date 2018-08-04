@@ -89,11 +89,7 @@ var app = new Vue({
         }, 
 
 
-        updateSelection: function() {
-
-            console.log(this.amperage + " IS THE AMPERAGE");
-
-        },
+ 
 
 
 
