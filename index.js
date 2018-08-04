@@ -89,11 +89,12 @@ var app = new Vue({
 
         }, 
 
-        updateProduct: function(index) {
-            this.selected = index;
-            console.log(index);
+
+        updateProduct: function() {
+            
         },
 
+     
        
         
     },
