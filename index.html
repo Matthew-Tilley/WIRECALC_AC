@@ -48,8 +48,7 @@
 
                 <select class=          "ui selection dropdown fluid"
                         v-model=        "amperage"  
-                        v-on:change=    "maximumWattage(), 
-                                        updateSelection()">
+                        v-on:change=    "maximumWattage()">
                     
                     <option value="15"> 15 </option>
                     
@@ -88,8 +87,12 @@
                 <div v-for="variant in variants"
                     :key="variants.variantId">
                     
-                    <p>{{variants.color}}</p>
+                    <p>{{variants.variantColor}}</p>
 
+                </div>
+
+                <div v-for"detail in details">
+                    <p>{{detail}}</p>
                 </div>
             
             

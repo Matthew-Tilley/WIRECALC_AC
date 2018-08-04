@@ -83,7 +83,7 @@ var app = new Vue({
             {
                 variantId: 1234,
                 details: ["This is 1234"],
-                color: "blue",
+                variantColor: "blue",
                 image: "ASSETS/IMAGES/HOM150.jpeg"
 
             },
@@ -92,13 +92,15 @@ var app = new Vue({
             {
                 variantId: 5678,
                 details: ["This is 5678"],
-                color: "green",
+                variantColor: "green",
                 image: "ASSETS/IMAGES/HOM115.jpeg"
 
             }
 
 
         ],
+
+        details: ["Blah", "Blah-blah", "Blah-blah-blah"]
 
               
     },  /* END OF "DATA" SECTION */
