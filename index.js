@@ -15,6 +15,8 @@ var app = new Vue({
 
         maxWatts: null,
 
+        image: null,
+
         
         
         breakers: [
@@ -89,7 +91,7 @@ var app = new Vue({
 
         updateProduct: function() {
 
-            
+            this.image = this.breakers.productImage;
 
         },
 

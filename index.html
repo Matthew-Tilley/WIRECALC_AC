@@ -48,7 +48,8 @@
 
                 <select class=          "ui selection dropdown fluid"
                         v-model=        "amperage"  
-                        v-on:change=    "maximumWattage(), updateProduct(breakers.productImage)">
+                        v-on:change=    "maximumWattage(), 
+                                        updateProduct(breakers.productImage)">
                     
                     <option value="15"> 15 </option>
                     
@@ -63,6 +64,10 @@
                     <option value="50"> 50 </option>
                     
                 </select>
+
+                <div v-for="breaker in breakers"
+                            :key="breakers.productCode">
+                    {{breakers.productImage}}</div>
 
                 
 
