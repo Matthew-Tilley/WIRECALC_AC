@@ -71,12 +71,9 @@ var app = new Vue({
                 productImage:       "ASSETS/IMAGES/HOM150.jpeg",
                 minNMB_AWG:         "06 AWG" 
             }
-        
-        
+                
         ],  /* END OF "BREAKERS" ARRAY */
-        
-        
-        
+              
     },  /* END OF "DATA" SECTION */
     
     
@@ -91,6 +88,8 @@ var app = new Vue({
 
 
         updateProduct: function() {
+
+            console.log("PRODUCT IMAGE!");
             
         },
 
