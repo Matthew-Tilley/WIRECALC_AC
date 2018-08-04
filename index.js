@@ -78,19 +78,21 @@ var app = new Vue({
 
 
 
-        variants [
+        variants: [
 
             {
                 variantId: 1234,
                 details: ["This is 1234"],
+                color: "blue",
                 image: "ASSETS/IMAGES/HOM150.jpeg"
 
-            }
+            },
 
 
             {
                 variantId: 5678,
                 details: ["This is 5678"],
+                color: "green",
                 image: "ASSETS/IMAGES/HOM115.jpeg"
 
             }
@@ -122,4 +124,4 @@ var app = new Vue({
         
     },
 
-});
+}); /* END VUE APP INSTANCE */
