@@ -89,8 +89,8 @@ var app = new Vue({
 
         updateProduct: function() {
 
-            console.log("PRODUCT IMAGE!");
             
+
         },
 
      
