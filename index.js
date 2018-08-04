@@ -116,8 +116,7 @@ var app = new Vue({
         }, 
 
         updateProduct: function(variantImage) {
-            this.image = variantImage;
-            console.log(":LKJLKJALKJLKJLK");
+           console.log("LKJASLKJASDLKJASDLKJASDLKJASD");
         }
 
 
