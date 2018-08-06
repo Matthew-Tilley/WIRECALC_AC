@@ -16,7 +16,8 @@ var app = new Vue({
 
 
         breakers: [
-            {productCode: HOM115,}
+            {productCode: HOM115,},
+            
             {productCode: HOM120,}
         ]
 
