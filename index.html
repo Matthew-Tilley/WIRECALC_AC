@@ -69,7 +69,9 @@
                         v-model=        "selected"  
                         v-on:change=    "maximumWattage()">
             
-                    
+                    <option v-for="breaker in breakers" v-bind:value="breaker.productCode">
+                        {{breaker.productAmperage}}
+                    </option>
             
             
                 </select>
