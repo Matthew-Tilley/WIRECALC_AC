@@ -18,6 +18,14 @@ var app = new Vue({
         image: null,
 
         
+
+
+        testOptions: [
+            { text: 'One', value: 'A' },
+            { text: 'Two', value: 'B' },
+            { text: 'Three', value: 'C' }
+          ]
+
         
         /* breakers: [
         
