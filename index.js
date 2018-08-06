@@ -82,7 +82,7 @@ var app = new Vue({
                 minNMB_AWG:         "06 AWG" 
             }
                 
-        ],  /* END OF "BREAKERS" ARRAY */ */
+        ],  /* END OF "BREAKERS" ARRAY */ 
 
 
 

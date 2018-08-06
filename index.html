@@ -78,11 +78,11 @@
 
 
 
-                <select v-model="selected">
-                        <option v-for="option in options" v-bind:value="option.value">
+                <select v-model="testSelected">
+                        <option v-for="option in testOptions" v-bind:value="option.value">
                           {{ option.text }}
                         </option>
-                      </select>
+                </select>
                       <span>Selected: {{ selected }}</span>
                       
 
