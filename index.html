@@ -71,11 +71,14 @@
                         v-on:change=    "maximumWattage()">
                     
                     <!-- <option value="15"> 15 </option> -->
-                    
+
+                    <div    v-for="breaker in breakers"
+                            v-bind:key="breaker.productCode">
                     <option value="15"
                             v-for="breaker in breakers"
                             v-bind:key="breaker.productCode"> 15 </option>
-                    
+                    </div>
+
                     <option value="20"> 20 </option>
                     
                     <option value="25"> 25 </option>
