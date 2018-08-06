@@ -15,11 +15,11 @@ var app = new Vue({
 
         maxWatts: null,
 
-        image: "ASSETS/IMAGES/BG-SUNFLW.jpeg",
+        image: null,
 
         
         
-        breakers: [
+        /* breakers: [
         
             { 
                 productCode:        "HOM115",
@@ -74,11 +74,11 @@ var app = new Vue({
                 minNMB_AWG:         "06 AWG" 
             }
                 
-        ],  /* END OF "BREAKERS" ARRAY */
+        ],  /* END OF "BREAKERS" ARRAY */ */
 
 
 
-        variants: [
+        /* variants: [
 
             {
                 variantId: 1234,
@@ -100,7 +100,7 @@ var app = new Vue({
 
         ],
 
-        details: ["Blah", "Blah-blah", "Blah-blah-blah"]
+        details: ["Blah", "Blah-blah", "Blah-blah-blah"] */
 
               
     },  /* END OF "DATA" SECTION */
