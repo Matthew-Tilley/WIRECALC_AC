@@ -14,28 +14,6 @@ var app = new Vue({
             { text: 'Three', value: 'C', flurp:"zurpTRES" }
           ],
 
-
-       
-
-
-
-
-
-
-
-
-    
-
-
-
-
-        
-        
-
-
-
-       
-
               
     },  /* END OF "DATA" SECTION */
     
