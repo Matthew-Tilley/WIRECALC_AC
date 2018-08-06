@@ -93,7 +93,9 @@
                 </select>
 
                 <select v-model="blurp">
-
+                    <option v-for="breaker in breakers">
+                        {{breaker.productAmperage + " THIS IS A TEST FIELD"}}
+                    </option>
                 </select>
                       
 
