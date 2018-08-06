@@ -5,7 +5,19 @@ var app = new Vue({
     
     data: {
         
-        /* selected: null,
+        
+
+        
+        testSelected: "",
+
+        testOptions: [
+            { text: 'One', value: 'A' },
+            { text: 'Two', value: 'B' },
+            { text: 'Three', value: 'C' }
+          ],
+
+
+          /* selected: null,
         
         breaker: null,
 
@@ -17,14 +29,8 @@ var app = new Vue({
 
         image: null, */
 
-        
-        testSelected: "",
 
-        testOptions: [
-            { text: 'One', value: 'A' },
-            { text: 'Two', value: 'B' },
-            { text: 'Three', value: 'C' }
-          ],
+
 
         
         /* breakers: [
