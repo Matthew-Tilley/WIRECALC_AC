@@ -6,13 +6,7 @@ var app = new Vue({
     data: {
               
         
-        testSelected: "",
-
-        testOptions: [
-            { text: 'One', value: 'A', flurp: "zurpUNO" },
-            { text: 'Two', value: 'B', flurp: "zurpDOS" },
-            { text: 'Three', value: 'C', flurp:"zurpTRES" }
-          ],
+    
 
               
     },  /* END OF "DATA" SECTION */
@@ -20,10 +14,7 @@ var app = new Vue({
     
     methods: {
            
-        myTester: function() {
-            console.log(Math.random());
-        }
-        
+    
     },
 
 }); /* END VUE APP INSTANCE */
