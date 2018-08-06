@@ -79,7 +79,7 @@
                 <select v-model="selectedProduct">
 
                     <option v-for="breaker in breakers" v-bind:value="productCode">
-                        {{breaker.productCode}}
+                        {{breaker.productAmperage}}
                     </option>
 
                 </select>
@@ -91,6 +91,13 @@
                           {{ option.text }}
                         </option>
                 </select>
+
+                <select v-model="testSelected">
+                        <option v-for="option in testOptions" v-bind:value="option.value">
+                          {{ option.text }}
+                        </option>
+                </select>
+                
                       <span>Selected: {{ testSelected }}</span>
                       
 
