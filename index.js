@@ -21,7 +21,7 @@ var app = new Vue({
     methods: {
            
         myTester: function() {
-            
+            console.log(Math.random());
         }
         
     },
