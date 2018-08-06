@@ -16,9 +16,9 @@ var app = new Vue({
 
 
         breakers: [
-            {productCode: HOM115,},
-            
-            {productCode: HOM120,}
+            {productCode: "HOM115",},
+
+            {productCode: "HOM120",}
         ]
 
 
@@ -133,7 +133,7 @@ var app = new Vue({
     
     methods: {
         
-        maximumWattage: function() {
+        /* maximumWattage: function() {
 
             return this.maxWatts = (this.amperage * this.voltage) * .8;
             // Calculating 80% of absolute maximum for a margin of safety.
@@ -143,7 +143,7 @@ var app = new Vue({
         updateProduct: function(variantImage) {
             this.image = variantImage;
             
-        }
+        } */
 
 
  
