@@ -5,7 +5,7 @@ var app = new Vue({
     
     data: {
         
-        selected: null,
+        /* selected: null,
         
         breaker: null,
 
@@ -15,7 +15,7 @@ var app = new Vue({
 
         maxWatts: null,
 
-        image: null,
+        image: null, */
 
         
         testSelected: "",
