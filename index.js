@@ -6,7 +6,12 @@ var app = new Vue({
     data: {
               
         
-    
+    breakers: [
+
+        {one: "ONE"},
+        {two: "TWO"}
+
+    ]
 
               
     },  /* END OF "DATA" SECTION */
