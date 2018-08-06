@@ -5,7 +5,7 @@ var app = new Vue({
     
     data: {
               
-       
+        
         testSelected: "",
 
         testOptions: [
@@ -15,15 +15,7 @@ var app = new Vue({
           ],
 
 
-        breakers: [
-            {   productCode:        "HOM115",
-                productAmperage:    15,
-            },
-
-            {   productCode:        "HOM120",
-                productAmperage:    20,
-            }
-        ]
+       
 
 
 
@@ -32,23 +24,50 @@ var app = new Vue({
 
 
 
-          /* selected: null,
-        
-        breaker: null,
-
-        amperage: null,
-
-        voltage: null,
-
-        maxWatts: null,
-
-        image: null, */
+    
 
 
 
 
         
-        /* breakers: [
+        
+
+
+
+       
+
+              
+    },  /* END OF "DATA" SECTION */
+    
+    
+    methods: {
+        
+        
+
+ 
+
+
+
+
+     
+       
+        
+    },
+
+}); /* END VUE APP INSTANCE */
+
+
+
+
+
+ /* maximumWattage: function() {
+
+            return this.maxWatts = (this.amperage * this.voltage) * .8;
+            // Calculating 80% of absolute maximum for a margin of safety.
+
+        }, 
+
+/* breakers: [
         
             { 
                 productCode:        "HOM115",
@@ -104,60 +123,3 @@ var app = new Vue({
             }
                 
         ],  /* END OF "BREAKERS" ARRAY */ 
-
-
-
-        /* variants: [
-
-            {
-                variantId: 1234,
-                details: ["This is 1234"],
-                variantColor: "blue",
-                variantImage: "ASSETS/IMAGES/HOM150.jpeg"
-
-            },
-
-
-            {
-                variantId: 5678,
-                details: ["This is 5678"],
-                variantColor: "green",
-                variantImage: "ASSETS/IMAGES/HOM115.jpeg"
-
-            }
-
-
-        ],
-
-        details: ["Blah", "Blah-blah", "Blah-blah-blah"] */
-
-              
-    },  /* END OF "DATA" SECTION */
-    
-    
-    methods: {
-        
-        /* maximumWattage: function() {
-
-            return this.maxWatts = (this.amperage * this.voltage) * .8;
-            // Calculating 80% of absolute maximum for a margin of safety.
-
-        }, 
-
-        updateProduct: function(variantImage) {
-            this.image = variantImage;
-            
-        } */
-
-
- 
-
-
-
-
-     
-       
-        
-    },
-
-}); /* END VUE APP INSTANCE */
