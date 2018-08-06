@@ -4,10 +4,8 @@ var app = new Vue({
     
     
     data: {
-        
-        
-
-        
+              
+       
         testSelected: "",
 
         testOptions: [
@@ -15,6 +13,18 @@ var app = new Vue({
             { text: 'Two', value: 'B' },
             { text: 'Three', value: 'C' }
           ],
+
+
+        breakers: [
+            {productCode: HOM115,}
+            {productCode: HOM120,}
+        ]
+
+
+
+
+
+
 
 
           /* selected: null,
