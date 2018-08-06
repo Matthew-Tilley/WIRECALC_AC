@@ -54,7 +54,14 @@
 
                 </select>
 
-                <span>SEND ME A VARIABLE, BRAH!!!  {{testSelected}}</span>
+                <select v-model="testSelected">
+
+                        <option v-for="option in testOptions">{{option.text}}</option>
+                        
+    
+                    </select>
+
+                
 
                 
          
