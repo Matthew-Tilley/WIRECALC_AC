@@ -70,7 +70,10 @@
                         v-model=        "amperage"  
                         v-on:change=    "maximumWattage()">
                     
-                    <option value="15"> 15 </option>
+                    <!-- <option value="15"> 15 </option> -->
+
+                    <option value="15"
+                            v-bind:key="breaker.productCode"> 15 </option>
                     
                     <option value="20"> 20 </option>
                     
