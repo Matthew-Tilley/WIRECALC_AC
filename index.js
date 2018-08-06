@@ -9,9 +9,9 @@ var app = new Vue({
         testSelected: "",
 
         testOptions: [
-            { text: 'One', value: 'A' },
-            { text: 'Two', value: 'B' },
-            { text: 'Three', value: 'C' }
+            { text: 'One', value: 'A', flurp: "zurpUNO" },
+            { text: 'Two', value: 'B', flurp: "zurpDOS" },
+            { text: 'Three', value: 'C', flurp:"zurpTRES" }
           ],
 
 
