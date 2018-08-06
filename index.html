@@ -42,11 +42,18 @@
 
                 
              
-                <div class= "ui segment">
+                <!-- <div class= "ui segment">
                     <p>Enter the maximum amperage of your circuit:</p>
-                </div>
+                </div> -->
  
             
+                <select v-model="selected">
+
+                    <option v-for="option in options"></option>
+
+                </select>
+
+
          
            
             
