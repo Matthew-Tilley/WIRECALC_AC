@@ -19,16 +19,10 @@ var app = new Vue({
     
     
     methods: {
-        
-        
-
- 
-
-
-
-
-     
-       
+           
+        myTester: function() {
+            
+        }
         
     },
 
