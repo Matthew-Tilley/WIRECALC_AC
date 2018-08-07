@@ -12,10 +12,7 @@ var app = new Vue({
     
     methods: {
            
-        testFunc: function() {
-            
-            console.log(this.selected);
-        }
+        
     
     },
 
