@@ -7,7 +7,6 @@ var app = new Vue({
 
         cats: '',
         dogs: "",
-
         thingie: "",
         
         options: [
@@ -17,6 +16,23 @@ var app = new Vue({
           ],
         
 
+
+
+
+        selected: "",  
+
+        breakers: [
+
+            {   productCode:    "HOM115",
+                amperage:       15, 
+            },
+
+            {   productCode:    "HOM120",
+                amperage:       20
+            },
+
+        ]
+
           
               
     },  /* END OF "DATA" SECTION */
@@ -25,9 +41,8 @@ var app = new Vue({
     methods: {
            
         testFunc: function() {
-            console.log("THE OPTION SELECTED IS: " + this.cats);
-            this.dogs = this.cats + "LKAJLKJASLKJ";
-            console.log(this.dogs);
+          
+           
         }
     
     },

@@ -65,9 +65,17 @@
 
 
 
-                <select v-model="selected">
+                <select v-model="selected"
+                        v-on:change="testFunc()">
+
+                    <option v-for="breaker in breakers"
+                            v-bind:userSelection="breaker.productCode">
+                        {{breaker.amperage}}
+                    </option>
 
                 </select>
+
+                <span>{{selected}}</span>
 
  
 
