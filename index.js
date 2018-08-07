@@ -24,7 +24,7 @@ var app = new Vue({
     methods: {
            
         testFunc: function() {
-            console.log(selected);
+            console.log(this.selected);
         }
     
     },
