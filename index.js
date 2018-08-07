@@ -24,7 +24,7 @@ var app = new Vue({
     methods: {
            
         testFunc: function() {
-            console.log("THE OPTION SELECTED IS: " + this.selected);
+            console.log("THE OPTION SELECTED IS: " + this.beans);
         }
     
     },
