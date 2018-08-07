@@ -54,6 +54,14 @@
                       <span>Selected: {{ selected }}</span>
             
 
+                <select v-model="selected">
+                    <option v-for="whatever in whatevers" v-bind:blurp="blurp.value">
+                        {{ blurp.text }}
+                    </option>
+                </select>
+                
+                <span>Selected: {{ selected }}</span>
+
 
                 
 
