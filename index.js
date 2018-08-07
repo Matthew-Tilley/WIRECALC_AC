@@ -8,12 +8,14 @@ var app = new Vue({
         testValOne: "UNO",
         testValTwo: "DOS",
         testValThree: "",
+
+        selected:"",
               
         
     breakers: [
 
-        {one: "ONE"},
-        {two: "TWO"}
+        {type: "ONE"},
+        {type: "TWO"}
 
     ]
 
@@ -24,7 +26,8 @@ var app = new Vue({
     methods: {
            
         testFunc: function() {
-            console.log(this.testValTwo + "BLURP!");
+            
+            console.log(this.selected);
         }
     
     },
