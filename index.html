@@ -69,12 +69,12 @@
 
                     <option v-for="breaker in breakers"
                             v-bind:userSelection="breaker.productCode">
-                        {{breaker.test}}
+                        {{breaker.amperage}}
                     </option>
 
                 </select>
 
-                <span>{{selected + " THIS IS THE DIV"}}</span>
+                <span>{{breaker.productCode + " THIS IS THE DIV"}}</span>
 
  
 
