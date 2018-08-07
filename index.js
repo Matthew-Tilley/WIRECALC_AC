@@ -10,9 +10,9 @@ var app = new Vue({
         thingie: "",
         
         options: [
-            { text: 'One', value: 'A' },
-            { text: 'Two', value: 'B' },
-            { text: 'Three', value: 'C' }
+            { text: 'One', blurp: 'A' },
+            { text: 'Two', blurp: 'B' },
+            { text: 'Three', blurp: 'C' }
           ],
         
 
