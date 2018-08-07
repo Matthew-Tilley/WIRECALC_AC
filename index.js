@@ -5,20 +5,7 @@ var app = new Vue({
     
     data: {
 
-        testValOne: "UNO",
-        testValTwo: "DOS",
-        testValThree: "",
-
-        selected:"",
-              
         
-    breakers: [
-
-        {type: "ONE"},
-        {type: "TWO"}
-
-    ]
-
               
     },  /* END OF "DATA" SECTION */
     
