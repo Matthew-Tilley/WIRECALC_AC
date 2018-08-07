@@ -46,7 +46,12 @@
                     <p>Enter the maximum amperage of your circuit:</p>
                 </div> -->
  
-            
+                <select v-model="selected">
+                        <option v-for="option in options" v-bind:value="option.value">
+                          {{ option.text }}
+                        </option>
+                      </select>
+                      <span>Selected: {{ selected }}</span>
             
 
 
