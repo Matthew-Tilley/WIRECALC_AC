@@ -17,7 +17,7 @@ var app = new Vue({
             { text: 'Two', value: 'B' },
             { text: 'Three', value: 'C' }
           ]
-        }
+        
     
     },
 
