@@ -24,11 +24,13 @@ var app = new Vue({
         breakers: [
 
             {   productCode:    "HOM115",
-                amperage:       15, 
+                amperage:       15,
+                test: "flurp", 
             },
 
             {   productCode:    "HOM120",
-                amperage:       20
+                amperage:       20,
+                test: "zurp",
             },
 
         ]
@@ -40,10 +42,7 @@ var app = new Vue({
     
     methods: {
            
-        testFunc: function() {
-          
-           
-        }
+        
     
     },
 
