@@ -27,7 +27,7 @@ var app = new Vue({
         testFunc: function() {
             console.log("THE OPTION SELECTED IS: " + this.cats);
             this.dogs = this.cats + "LKAJLKJASLKJ";
-            console.log(dogs);
+            console.log(this.dogs);
         }
     
     },
