@@ -68,7 +68,7 @@
                 <select v-model="selected">
 
                     <option v-for="breaker in breakers"
-                            v-bind:userSelection="breaker.productCode">
+                            v-bind:value="breaker.productCode">
                         {{breaker.amperage}}
                     </option>
 
