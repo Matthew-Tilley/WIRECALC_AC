@@ -16,11 +16,7 @@ var app = new Vue({
           ],
         
 
-          whatevers: [
-            { text: 'Ding', blurp: 'A' },
-            { text: 'Ding-ding', blurp: 'B' },
-            { text: 'Ding-ding-ding', blurp: 'C' }
-          ]
+          
               
     },  /* END OF "DATA" SECTION */
     
