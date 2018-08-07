@@ -46,10 +46,11 @@
                     <p>Enter the maximum amperage of your circuit:</p>
                 </div> -->
  
-                <select v-model="beans"
+                <select v-model="cats"
                         v-on:change="testFunc()">
 
-                        <option v-for="option in options" v-bind:blurp="option.blurp">
+                        <option v-for="option in options" 
+                                v-bind:blurp="option.blurp">
 
                             {{ option.blurp }}
 
@@ -57,7 +58,7 @@
                         
                 </select>
                 
-                <span>Selected: {{ beans }}</span>
+                <span>Selected: {{ cats }}</span>
  
 
 

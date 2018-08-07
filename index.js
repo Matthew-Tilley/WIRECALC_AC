@@ -5,7 +5,7 @@ var app = new Vue({
     
     data: {
 
-        beans: '',
+        cats: '',
 
         thingie: "",
         
