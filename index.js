@@ -12,7 +12,12 @@ var app = new Vue({
     
     methods: {
            
-        
+        options: [
+            { text: 'One', value: 'A' },
+            { text: 'Two', value: 'B' },
+            { text: 'Three', value: 'C' }
+          ]
+        }
     
     },
 
