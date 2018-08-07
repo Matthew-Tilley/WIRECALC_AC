@@ -16,10 +16,10 @@ var app = new Vue({
           ],
         
 
-          options: [
-            { text: 'One', blurp: 'A' },
-            { text: 'Two', blurp: 'B' },
-            { text: 'Three', blurp: 'C' }
+          whatevers: [
+            { text: 'Ding', blurp: 'A' },
+            { text: 'Ding-ding', blurp: 'B' },
+            { text: 'Ding-ding-ding', blurp: 'C' }
           ]
               
     },  /* END OF "DATA" SECTION */
