@@ -6,13 +6,21 @@ var app = new Vue({
     data: {
 
         selected: 'A',
+
+        thingie: "",
         
         options: [
             { text: 'One', value: 'A' },
             { text: 'Two', value: 'B' },
             { text: 'Three', value: 'C' }
-          ]
+          ],
         
+
+          options: [
+            { text: 'One', blurp: 'A' },
+            { text: 'Two', blurp: 'B' },
+            { text: 'Three', blurp: 'C' }
+          ]
               
     },  /* END OF "DATA" SECTION */
     
