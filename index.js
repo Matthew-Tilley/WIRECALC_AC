@@ -5,6 +5,13 @@ var app = new Vue({
     
     data: {
 
+        selected: 'A',
+        
+        options: [
+            { text: 'One', value: 'A' },
+            { text: 'Two', value: 'B' },
+            { text: 'Three', value: 'C' }
+          ]
         
               
     },  /* END OF "DATA" SECTION */
@@ -12,11 +19,6 @@ var app = new Vue({
     
     methods: {
            
-        options: [
-            { text: 'One', value: 'A' },
-            { text: 'Two', value: 'B' },
-            { text: 'Three', value: 'C' }
-          ]
         
     
     },
