@@ -4,6 +4,10 @@ var app = new Vue({
     
     
     data: {
+
+        testValOne: "UNO",
+        testValTwo: "DOS",
+        testValThree: "",
               
         
     breakers: [
@@ -20,7 +24,7 @@ var app = new Vue({
     methods: {
            
         testFunc: function() {
-            console.log(Math.random());
+            console.log(this.testValThree + "BLURP!");
         }
     
     },
