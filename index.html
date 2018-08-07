@@ -68,13 +68,14 @@
                 <select v-model="selected">
 
                     <option v-for="breaker in breakers"
-                            v-bind:turkey="breaker.test">
+                            v-bind:value="breaker.test">
                         {{breaker.amperage}}
                     </option>
 
                 </select>
 
                 <span>{{selected + " THIS IS THE DIV"}}</span>
+                <span>{{breaker.amperage}}</span>
 
  
 
