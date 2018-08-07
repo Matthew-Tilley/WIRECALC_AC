@@ -48,12 +48,12 @@
  
                 <select v-model="selected">
 
-                        <option v-for="option in options" v-bind:blurp="blurp.blurp">
+                        <option v-for="option in options" v-bind:blurp="option.blurp">
 
-                            {{ option.text }}
+                            {{ option.blurp }}
 
                         </option>
-
+                        
                 </select>
                 
                 <span>Selected: {{ selected }}</span>
