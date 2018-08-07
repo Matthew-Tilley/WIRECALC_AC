@@ -5,12 +5,12 @@ var app = new Vue({
     
     data: {
 
-        selected: 'A',
+        beans: '',
 
         thingie: "",
         
         options: [
-            { text: 'One', blurp: 'A' },
+            { text: 'One', blurp: 'AVRRRRRRR' },
             { text: 'Two', blurp: 'B' },
             { text: 'Three', blurp: 'C' }
           ],
