@@ -22,17 +22,15 @@ var app = new Vue({
     
     
     methods: {
-           
+         
         maximumWattage: function() {
-
+            debugger;
             return this.maxWatts = (this.amperages * this.voltage) * .8;
             // Calculating 80% of absolute maximum for a margin of safety.
 
         }, 
 
-        testFunc: function() {
-            console.log(this.selectedAmps + " This thing is working!")
-        }
+      
         
     
     },
