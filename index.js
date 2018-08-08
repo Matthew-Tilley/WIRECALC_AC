@@ -29,6 +29,10 @@ var app = new Vue({
             // Calculating 80% of absolute maximum for a margin of safety.
 
         }, 
+
+        testFunc: function() {
+            console.log(this.selectedAmps + " This thing is working!")
+        }
         
     
     },

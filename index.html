@@ -41,7 +41,8 @@
             </div>
 
 
-            <select v-model="selectedAmps">
+            <select v-model="selectedAmps"
+                    v-on:change="testFunc()">
                 <option v-for="amps in amperages">{{amps}}
 
                 </option>
