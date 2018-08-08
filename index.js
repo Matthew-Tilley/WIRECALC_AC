@@ -10,6 +10,8 @@ var app = new Vue({
 
         maxWatts: null,
 
+        amperages: [15, 20, 25, 30, 40, 50],
+
                
 
           
@@ -21,7 +23,7 @@ var app = new Vue({
            
         maximumWattage: function() {
 
-            return this.maxWatts = (this.amperage * this.voltage) * .8;
+            return this.maxWatts = (this.amperages * this.voltage) * .8;
             // Calculating 80% of absolute maximum for a margin of safety.
 
         }, 
