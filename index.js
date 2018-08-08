@@ -12,6 +12,8 @@ var app = new Vue({
 
         amperages: [15, 20, 25, 30, 40, 50],
 
+        selectedAmps: null,
+
                
 
           
