@@ -5,35 +5,13 @@ var app = new Vue({
     
     data: {
 
-        cats: '',
-        dogs: "",
-        thingie: "",
         
-        options: [
-            { text: 'One', vurrr: 'AVRRRRRRR' },
-            { text: 'Two', vurrr: 'B' },
-            { text: 'Three', vurrr: 'C' }
-          ],
         
 
 
 
 
-        selected: "",  
-
-        breakers: [
-
-            {   productCode:    "HOM115",
-                amperage:       15,
-                test: "flurp", 
-            },
-
-            {   productCode:    "HOM120",
-                amperage:       20,
-                test: "zurp",
-            },
-
-        ]
+        
 
           
               

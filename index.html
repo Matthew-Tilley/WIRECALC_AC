@@ -46,35 +46,14 @@
                     <p>Enter the maximum amperage of your circuit:</p>
                 </div> -->
  
-                <select v-model="cats"
-                        v-on:change="testFunc()">
+               
 
-                        <option v-for="option in options" 
-                                v-bind:elephant="option.vurrr">
 
-                            {{ option.text }}
 
-                        </option>
-                        
-                </select>
+
+
+
                 
-                <span>Selected: {{ cats }}</span>
-
-
-
-
-
-
-                <select v-model="selected">
-
-                    <option v-for="breaker in breakers"
-                            v-bind:value="breaker.productCode">
-                        {{breaker.amperage}}
-                    </option>
-
-                </select>
-
-                <span>{{selected + " THIS IS THE DIV"}}</span>
                 
 
  
