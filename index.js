@@ -24,7 +24,7 @@ var app = new Vue({
     methods: {
          
         maximumWattage: function() {
-            
+            console.log("WORKING");
             return this.maxWatts = (this.amperages * this.voltage) * .8;
             // Calculating 80% of absolute maximum for a margin of safety.
 
