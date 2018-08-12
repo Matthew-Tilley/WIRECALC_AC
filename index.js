@@ -14,6 +14,29 @@ var app = new Vue({
 
         selectedAmps: null,
 
+        breakers: [
+            
+            {   productCode:    "HOM115",
+                productPoles:   1, 
+                productAmps:    15, 
+            },
+
+            {   productCode:    "HOM120",
+                productPoles:   1, 
+                productAmps:    20, 
+            },
+
+            {   productCode:    "HOM125",
+                productPoles:   1, 
+                productAmps:    25, 
+            },
+
+
+
+            
+
+        ]
+
                
 
           
@@ -32,7 +55,22 @@ var app = new Vue({
 
     },
 
+
+    computed: {
+        
+    }
+
+
+
 }); /* END VUE APP INSTANCE */
+
+
+
+
+
+
+
+
 
 
 
