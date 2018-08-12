@@ -31,6 +31,31 @@ var app = new Vue({
                 productAmps:    25, 
             },
 
+        ],
+
+
+
+
+
+
+
+        active: 0,
+
+        index: 0,
+
+        notes: [
+
+            {id: 1,
+            name: "note 1",
+            text: "text of note 1"
+            },
+
+
+            {id: 2,
+                name: "note 2",
+                text: "text of note 2"
+                },
+
         ]
 
                
@@ -50,11 +75,19 @@ var app = new Vue({
 
         }, 
 
+        setActive: function(index) {
+            this.active = index;
+        }
+
     },
 
 
     computed: {
-        
+       
+        activeNote: function() {
+            return this.notes[this.active];
+        }
+
     }
 
 
