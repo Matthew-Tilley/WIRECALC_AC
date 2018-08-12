@@ -66,6 +66,16 @@
             <ol v-for="breaker in breakers">
 
             </ol>
+
+
+            <ol v-for="note in notes">
+                <h3 @click="setActive($index)">{{note.name}}</h3>
+            </ol>
+
+            <div>
+                <h1>{{activeNote.name}}</h1>
+                <textarea v-model="activeNote.text"></textarea>
+            </div>
  
                
 
