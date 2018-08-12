@@ -45,6 +45,7 @@
                     v-on:change="maximumWattage()">
 
                 <option v-for="amps in amperages">{{amps}}
+                    
 
                 </option>
 
@@ -61,6 +62,10 @@
             <div class= "ui segment">
                 <p>The maximum safe wattage of your circuit is: {{maxWatts}} </p>
             </div>
+
+            <ol v-for="breaker in breakers">
+
+            </ol>
  
                
 
