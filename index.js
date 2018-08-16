@@ -16,17 +16,23 @@ var app = new Vue({
 
         breakers: [
             
-            {   productCode:    "HOM115",
+            {   
+                id: 1,
+                productCode:    "HOM115",
                 productPoles:   1, 
                 productAmps:    15, 
             },
 
-            {   productCode:    "HOM120",
+            {   
+                id: 2,
+                productCode:    "HOM120",
                 productPoles:   1, 
                 productAmps:    20, 
             },
 
-            {   productCode:    "HOM125",
+            {   
+                id: 3,
+                productCode:    "HOM125",
                 productPoles:   1, 
                 productAmps:    25, 
             },
