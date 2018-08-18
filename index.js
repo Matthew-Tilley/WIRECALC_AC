@@ -23,7 +23,7 @@ var app = new Vue({
                 productCode:    "HOM115",
                 productPoles:   "SINGLE", 
                 productAmps:    15,
-                productImage:   "../ASSETS/IMAGES/HOM115.jpeg",
+                productImage:   "ASSETS/IMAGES/HOM115.jpeg",
                 CU_NMB_Wire:    "#14 AWG",
                 CU_UFB_Wire:    "#14 AWG",
                 CU_THW_Wire:    "#14 AWG",

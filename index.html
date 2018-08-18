@@ -75,10 +75,13 @@
 
             <div class= "ui card"> 
 
-                <div class= "image">
-                    <img src="{{validBreaker && validBreaker.productImage}}">
+                <div class= "image"
+                     v-model="validBreaker.productImage"   >
+                    <img    class= "ui medium image">
+                            src="{{validBreaker && validBreaker.productImage}}"
 
-                    <img src="ASSETS/IMAGES/HOM115.jpeg">
+                    <img  
+                        src="ASSETS/IMAGES/HOM115.jpeg">
                     
                     
                 </div>
