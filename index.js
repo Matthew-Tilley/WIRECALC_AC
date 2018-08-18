@@ -64,7 +64,7 @@ var app = new Vue({
         },
 
         setValidBreaker: function(){
-            
+
             for (i in this.breakers)
             {
                 if (this.selectedAmps == this.breakers[i].productAmps)
@@ -78,13 +78,7 @@ var app = new Vue({
     },
 
 
-    computed: {
-       
-        activeNote: function() {
-            return this.notes[this.active];
-        }
-
-    }
+    
 
 
 
