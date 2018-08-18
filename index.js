@@ -22,7 +22,15 @@ var app = new Vue({
                 id: 1,
                 productCode:    "HOM115",
                 productPoles:   1, 
-                productAmps:    15, 
+                productAmps:    15,
+                CU_NMB_WIRE:    "#14 AWG",
+                CU_UFB_Wire:    "#14 AWG",
+                CU_THW_Wire:    "#14 AWG",
+                CU_THWN_Wire:   "#14 AWG",
+                CU_SE_Wire:     "#14 AWG",
+                CU_USE_Wire:    "#14 AWG",
+                CU_XHHW_Wire:   "#14 AWG",
+
             },
 
             {   
