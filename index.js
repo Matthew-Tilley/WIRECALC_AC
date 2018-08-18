@@ -42,15 +42,6 @@ var app = new Vue({
         ],
 
 
-
-
-
-
-
-
-               
-
-          
               
     },  /* END OF "DATA" SECTION */
     
@@ -58,9 +49,7 @@ var app = new Vue({
     methods: {
          
         maximumWattage: function() {
-            console.log("WORKING");
-            console.log(this.selectedAmps + " IS THE AMPS!")
-
+            
             this.setValidBreaker();
 
             return this.maxWatts = (this.selectedAmps * this.voltage) * .8;
@@ -69,10 +58,13 @@ var app = new Vue({
         }, 
 
         setActive: function(index) {
+
             this.active = index;
+
         },
 
         setValidBreaker: function(){
+            
             for (i in this.breakers)
             {
                 if (this.selectedAmps == this.breakers[i].productAmps)
