@@ -14,7 +14,7 @@ var app = new Vue({
 
         selectedAmps: null,
 
-        validBreaker: null,
+        validBreaker: "",
 
         breakers: [
             
