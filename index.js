@@ -26,6 +26,7 @@ var app = new Vue({
                 productSeries:  "HOMELINE",
                 productImage:   "ASSETS/IMAGES/HOM115.jpeg",
                 copperWire:     "#14 AWG",
+                aluminumWire:   "*NOT RECOMMENDED*",
                 
 
             },
