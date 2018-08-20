@@ -25,13 +25,8 @@ var app = new Vue({
                 productAmps:    15,
                 productSeries:  "HOMELINE",
                 productImage:   "ASSETS/IMAGES/HOM115.jpeg",
-                CU_NMB_Wire:    "#14 AWG",
-                CU_UFB_Wire:    "#14 AWG",
-                CU_THW_Wire:    "#14 AWG",
-                CU_THWN_Wire:   "#14 AWG",
-                CU_SE_Wire:     "#14 AWG",
-                CU_USE_Wire:    "#14 AWG",
-                CU_XHHW_Wire:   "#14 AWG",
+                copperWire:     "#14 AWG",
+                
 
             },
 
@@ -42,13 +37,7 @@ var app = new Vue({
                 productAmps:    20,
                 productSeries:  "HOMELINE",
                 productImage:   "ASSETS/IMAGES/HOM120.jpeg",
-                CU_NMB_Wire:    "#12 AWG",
-                CU_UFB_Wire:    "#12 AWG",
-                CU_THW_Wire:    "#12 AWG",
-                CU_THWN_Wire:   "#12 AWG",
-                CU_SE_Wire:     "#12 AWG",
-                CU_USE_Wire:    "#12 AWG",
-                CU_XHHW_Wire:   "#12 AWG", 
+                copperWire:     "#12 AWG", 
             },
 
             {   
@@ -58,13 +47,7 @@ var app = new Vue({
                 productAmps:    25,
                 productSeries:  "HOMELINE",
                 productImage:   "ASSETS/IMAGES/HOM125.jpeg",
-                CU_NMB_Wire:    "#10 AWG",
-                CU_UFB_Wire:    "#10 AWG",
-                CU_THW_Wire:    "#10 AWG",
-                CU_THWN_Wire:   "#10 AWG",
-                CU_SE_Wire:     "#10 AWG",
-                CU_USE_Wire:    "#10 AWG",
-                CU_XHHW_Wire:   "#10 AWG", 
+                copperWire:     "#10 AWG",
             },
 
             {   
@@ -74,13 +57,7 @@ var app = new Vue({
                 productAmps:    30,
                 productSeries:  "HOMELINE",
                 productImage:   "ASSETS/IMAGES/HOM130.jpeg",
-                CU_NMB_Wire:    "#10 AWG",
-                CU_UFB_Wire:    "#10 AWG",
-                CU_THW_Wire:    "#10 AWG",
-                CU_THWN_Wire:   "#10 AWG",
-                CU_SE_Wire:     "#10 AWG",
-                CU_USE_Wire:    "#10 AWG",
-                CU_XHHW_Wire:   "#10 AWG", 
+                copperWire:     "#10 AWG",
             },
 
             {   
@@ -90,29 +67,17 @@ var app = new Vue({
                 productAmps:    40,
                 productSeries:  "HOMELINE",
                 productImage:   "ASSETS/IMAGES/HOM140.jpeg",
-                CU_NMB_Wire:    "#8 AWG",
-                CU_UFB_Wire:    "#8 AWG",
-                CU_THW_Wire:    "#8 AWG",
-                CU_THWN_Wire:   "#8 AWG",
-                CU_SE_Wire:     "#8 AWG",
-                CU_USE_Wire:    "#8 AWG",
-                CU_XHHW_Wire:   "#8 AWG", 
+                copperWire:     "#8 AWG",
             },
 
             {   
                 id:             6,
-                productCode:    "HOM130",
+                productCode:    "HOM150",
                 productPoles:   "SINGLE", 
                 productAmps:    50,
                 productSeries:  "HOMELINE",
                 productImage:   "ASSETS/IMAGES/HOM150.jpeg",
-                CU_NMB_Wire:    "#6 AWG",
-                CU_UFB_Wire:    "#6 AWG",
-                CU_THW_Wire:    "#6 AWG",
-                CU_THWN_Wire:   "#6 AWG",
-                CU_SE_Wire:     "#6 AWG",
-                CU_USE_Wire:    "#6 AWG",
-                CU_XHHW_Wire:   "#6 AWG", 
+                copperWire:     "#8 AWG",
             },
 
 

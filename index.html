@@ -88,9 +88,10 @@
                 </tr>
 
                 <tr>
-                    <td><img    class = "ui image medium"
-                        v-bind:src="validBreaker.productImage" 
-                            ></td>
+                    <td>
+                    <img    class = "ui image medium"
+                                v-bind:src="validBreaker && validBreaker.productImage">
+                    </td>
                 </tr>
                
             </table>
