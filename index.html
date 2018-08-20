@@ -55,11 +55,11 @@
 
                 
              
-            <div class= "ui segment grey inverted">
+            <div class= "ui segment secondary huge ">
                 <p>Enter the maximum amperage of your circuit:</p>
             </div>
 
-            <div class= "ui segment inverted">
+            <div class= "ui segment inverted huge">
                 <p>The maximum safe wattage of your circuit is: {{maxWatts}} </p>
             </div>           
 
@@ -89,8 +89,10 @@
 
             </table>
 
+            <div class="ui segment">
             <img    class = "ui image medium"
                     v-bind:src="validBreaker && validBreaker.productImage">
+            </div>
 
             
 
