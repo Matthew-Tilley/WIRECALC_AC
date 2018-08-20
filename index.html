@@ -65,24 +65,36 @@
 
             <div>{{validBreaker && validBreaker.productCode}}</div>
 
+            <div class = "ui card">
+
             <table class = "ui celled table">
+                
                 <tr>
-                    <td>SOMETHING</td>
+                    <td>AMPERAGE RATING</td>
+                    <td>{{validBreaker && validBreaker.productAmps}}</td>
+                    </tr>
+
+                <tr>
+                    <td>MANUFACTURER CODE:</td>
+                    <td>{{validBreaker && validBreaker.productCode}}</td>
+                </tr>
+
+                <tr>
+                    <td>POLE CONFIGURATION:</td>
                     <td>{{validBreaker && validBreaker.productPoles}}</td>
                 </tr>
                
             </table>
+
+            </div>
 
             <div class= "ui card"> 
 
                 <div class= "image">
 
                     <img    class= "ui medium image"
-                            src="{{validBreaker.productImage}}">
+                            src="{{productImage}}">
 
-                    <img  
-                        src="ASSETS/IMAGES/HOM115.jpeg">
-                    
                     
                 </div>
 
@@ -145,24 +157,7 @@
 
                 </table>
             
-            
-
-            
- 
-               
-
-
-
-
-
-
-                
-                
-
- 
-
-
-            
+       
             </div>  <!-- END SEMANTIC-UI CONTAINER DIV -->
     
         </div>  <!-- END VUE #APP DIV -->
