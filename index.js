@@ -115,10 +115,18 @@ var app = new Vue({
 
             for (i in this.breakers)
             {
-                if (this.selectedAmps == this.breakers[i].productAmps)
+                if (this.selectedAmps == this.breakers[i].productAmps && this.voltage == "120")
                 {
                     this.validBreaker = this.breakers[i];
                     console.log(this.validBreaker);
+                }
+
+                if (this.selectedAmps == this.breakers[i].productAmps && this.voltage == "240")
+                {
+                    /* this.validBreaker = this.breakers[i];
+                    console.log(this.validBreaker); */
+
+                    console.log("THIS IS A 240 CIRCUIT");
                 }
             }
         }
