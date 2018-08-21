@@ -16,7 +16,7 @@ var app = new Vue({
 
         validBreaker: "",
 
-        breakers: [
+        breakers120: [
             
             {   
                 id:             1,
@@ -90,6 +90,23 @@ var app = new Vue({
         ],
 
 
+        breakers240: [
+            
+            {   
+                id:             1,
+                productCode:    "HOM215",
+                productPoles:   "DOUBLE", 
+                productAmps:    15,
+                productSeries:  "HOMELINE",
+                productImage:   "ASSETS/IMAGES/HOM215.jpeg",
+                copperWire:     "#14 AWG",
+                aluminumWire:   "#12 AWG",
+                
+
+            },
+
+        ],
+
               
     },  /* END OF "DATA" SECTION */
     
@@ -114,7 +131,7 @@ var app = new Vue({
 
         },
 
-        setValidBreaker: function(){
+        setValidBreaker99: function(){
 
             for (i in this.breakers)
             {
@@ -132,7 +149,33 @@ var app = new Vue({
                     console.log("THIS IS A 240 CIRCUIT");
                 }
             }
+        },
+
+
+
+        setValidBreaker: function() {
+
+            if (this.voltage == 120) {
+
+                for (i in this.breakers120)
+                {
+                    if (this.selectedAmps == this.breakers120[i].productAmps)
+                    {
+                        this.validBreaker = this.breakers120[i];
+                    }
+                }
+            }
+
+            if (this.voltage == 240) {
+
+                for (i in this.breakers240)
+                {
+                    this.validBreaker = this.breakers240[i];
+                }
+            }
+
         }
+
 
     },
 
