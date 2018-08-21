@@ -99,8 +99,8 @@ var app = new Vue({
                 productAmps:    20,
                 productSeries:  "HOMELINE",
                 productImage:   "ASSETS/IMAGES/HOM220.jpeg",
-                copperWire:     "#14 AWG",
-                aluminumWire:   "#12 AWG",
+                copperWire:     "#12 AWG",
+                aluminumWire:   "#10 AWG",
             },
 
             {   
@@ -109,8 +109,8 @@ var app = new Vue({
                 productAmps:    25,
                 productSeries:  "HOMELINE",
                 productImage:   "ASSETS/IMAGES/HOM225.jpeg",
-                copperWire:     "#14 AWG",
-                aluminumWire:   "#12 AWG",
+                copperWire:     "#10 AWG",
+                aluminumWire:   "#10 AWG",
             },
 
             {   
@@ -119,8 +119,8 @@ var app = new Vue({
                 productAmps:    30,
                 productSeries:  "HOMELINE",
                 productImage:   "ASSETS/IMAGES/HOM230.jpeg",
-                copperWire:     "#14 AWG",
-                aluminumWire:   "#12 AWG",
+                copperWire:     "#10 AWG",
+                aluminumWire:   "#8 AWG",
             },
 
             {   
@@ -129,8 +129,8 @@ var app = new Vue({
                 productAmps:    40,
                 productSeries:  "HOMELINE",
                 productImage:   "ASSETS/IMAGES/HOM240.jpeg",
-                copperWire:     "#14 AWG",
-                aluminumWire:   "#12 AWG",
+                copperWire:     "#8 AWG",
+                aluminumWire:   "#8 AWG",
             },
 
 
@@ -140,8 +140,8 @@ var app = new Vue({
                 productAmps:    50,
                 productSeries:  "HOMELINE",
                 productImage:   "ASSETS/IMAGES/HOM250.jpeg",
-                copperWire:     "#14 AWG",
-                aluminumWire:   "#12 AWG",
+                copperWire:     "#6 AWG",
+                aluminumWire:   "#6 AWG",
             },
         ],
 
