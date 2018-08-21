@@ -2,3 +2,13 @@ body {
     background-color: darkgray;
 }
 
+header {
+    display:            flex;
+    justify-content:    center;
+    align-items:        center;
+
+    height:             10vh;
+
+    font-family:        'Bangers', cursive;
+    font-size:          3rem;
+}

@@ -2,17 +2,20 @@
 <html>
     
     <head>
+        <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css"></link>
         <link rel="stylesheet"  type="text/css"  href="index.css">
     </head>
     
     <body>
+
+        <header>CIRCUIT CALCULATOR PLUS</header>
         
         <div id="app">
             
             <div class="ui container"> 
             
-            <div class="ui segment secondary huge">      
+            <div class="ui segment inverted grey huge">      
             
             <p>Enter the voltage of your circuit:</p>        
 
@@ -52,7 +55,7 @@
 
                 
              
-            <div class= "ui segment inverted blue huge ">
+            <div class= "ui segment inverted grey huge ">
                 <p>Enter the maximum amperage of your circuit:</p>
 
                 <select v-model="selectedAmps"
@@ -63,13 +66,13 @@
             </select>
             </div>
 
-            <div class= "ui segment inverted huge">
+            <div class= "ui segment inverted grey huge">
                 <p>The maximum safe wattage of your circuit is: {{maxWatts}} </p>
             </div>           
 
            
 
-            <table class = "ui celled table">
+            <table class = "ui celled table inverted blue">
                 
                 <tr>
                     <td>PRODUCT SERIES</td>
