@@ -105,6 +105,63 @@ var app = new Vue({
 
             },
 
+            {   
+                id:             1,
+                productCode:    "HOM220",
+                productPoles:   "DOUBLE", 
+                productAmps:    20,
+                productSeries:  "HOMELINE",
+                productImage:   "ASSETS/IMAGES/HOM220.jpeg",
+                copperWire:     "#14 AWG",
+                aluminumWire:   "#12 AWG",
+                
+
+            },
+
+            {   
+                id:             1,
+                productCode:    "HOM225",
+                productPoles:   "DOUBLE", 
+                productAmps:    25,
+                productSeries:  "HOMELINE",
+                productImage:   "ASSETS/IMAGES/HOM225.jpeg",
+                copperWire:     "#14 AWG",
+                aluminumWire:   "#12 AWG",
+            },
+
+            {   
+                id:             1,
+                productCode:    "HOM230",
+                productPoles:   "DOUBLE", 
+                productAmps:    30,
+                productSeries:  "HOMELINE",
+                productImage:   "ASSETS/IMAGES/HOM230.jpeg",
+                copperWire:     "#14 AWG",
+                aluminumWire:   "#12 AWG",
+            },
+
+            {   
+                id:             1,
+                productCode:    "HOM240",
+                productPoles:   "DOUBLE", 
+                productAmps:    40,
+                productSeries:  "HOMELINE",
+                productImage:   "ASSETS/IMAGES/HOM240.jpeg",
+                copperWire:     "#14 AWG",
+                aluminumWire:   "#12 AWG",
+            },
+
+
+            {   
+                id:             1,
+                productCode:    "HOM250",
+                productPoles:   "DOUBLE", 
+                productAmps:    50,
+                productSeries:  "HOMELINE",
+                productImage:   "ASSETS/IMAGES/HOM250.jpeg",
+                copperWire:     "#14 AWG",
+                aluminumWire:   "#12 AWG",
+            },
         ],
 
               
@@ -131,26 +188,7 @@ var app = new Vue({
 
         },
 
-        setValidBreaker99: function(){
-
-            for (i in this.breakers)
-            {
-                if (this.selectedAmps == this.breakers[i].productAmps && this.voltage == "120")
-                {
-                    this.validBreaker = this.breakers[i];
-                    console.log(this.validBreaker);
-                }
-
-                if (this.selectedAmps == this.breakers[i].productAmps && this.voltage == "240")
-                {
-                    /* this.validBreaker = this.breakers[i];
-                    console.log(this.validBreaker); */
-
-                    console.log("THIS IS A 240 CIRCUIT");
-                }
-            }
-        },
-
+        
 
 
         setValidBreaker: function() {
@@ -170,7 +208,12 @@ var app = new Vue({
 
                 for (i in this.breakers240)
                 {
-                    this.validBreaker = this.breakers240[i];
+                    
+                    if (this.selectedAmps == this.breakers240[i].productAmps)
+                    {
+                        this.validBreaker = this.breakers240[i];
+                    }
+                    
                 }
             }
 
@@ -260,7 +303,34 @@ var app = new Vue({
                 minNMB_AWG:         "06 AWG" 
             }
                 
-        ],  /* END OF "BREAKERS" ARRAY */ 
+        ],  /* END OF "BREAKERS" ARRAY 
+        
+        
+        
+        
+        
+        
+        
+        setValidBreaker99: function(){
+
+            for (i in this.breakers)
+            {
+                if (this.selectedAmps == this.breakers[i].productAmps && this.voltage == "120")
+                {
+                    this.validBreaker = this.breakers[i];
+                    console.log(this.validBreaker);
+                }
+
+                if (this.selectedAmps == this.breakers[i].productAmps && this.voltage == "240")
+                {
+                     this.validBreaker = this.breakers[i];
+                    console.log(this.validBreaker); 
+
+                    console.log("THIS IS A 240 CIRCUIT");
+                }
+            }
+        },
+*/ 
 
 
        
