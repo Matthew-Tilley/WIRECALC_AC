@@ -19,7 +19,6 @@ var app = new Vue({
         breakers120: [
             
             {   
-                id:             1,
                 productCode:    "HOM115",
                 productPoles:   "SINGLE", 
                 productAmps:    15,
@@ -27,12 +26,9 @@ var app = new Vue({
                 productImage:   "ASSETS/IMAGES/HOM115.jpeg",
                 copperWire:     "#14 AWG",
                 aluminumWire:   "#12 AWG",
-                
-
             },
 
             {   
-                id:             2,
                 productCode:    "HOM120",
                 productPoles:   "SINGLE", 
                 productAmps:    20,
@@ -43,7 +39,6 @@ var app = new Vue({
             },
 
             {   
-                id:             3,
                 productCode:    "HOM125",
                 productPoles:   "SINGLE", 
                 productAmps:    25,
@@ -54,7 +49,6 @@ var app = new Vue({
             },
 
             {   
-                id:             4,
                 productCode:    "HOM130",
                 productPoles:   "SINGLE", 
                 productAmps:    30,
@@ -65,7 +59,6 @@ var app = new Vue({
             },
 
             {   
-                id:             5,
                 productCode:    "HOM140",
                 productPoles:   "SINGLE", 
                 productAmps:    40,
@@ -76,7 +69,6 @@ var app = new Vue({
             },
 
             {   
-                id:             6,
                 productCode:    "HOM150",
                 productPoles:   "SINGLE", 
                 productAmps:    50,
@@ -86,14 +78,12 @@ var app = new Vue({
                 aluminumWire:   "#6 AWG",
             },
 
-
         ],
 
 
         breakers240: [
             
             {   
-                id:             1,
                 productCode:    "HOM215",
                 productPoles:   "DOUBLE", 
                 productAmps:    15,
@@ -101,12 +91,9 @@ var app = new Vue({
                 productImage:   "ASSETS/IMAGES/HOM215.jpeg",
                 copperWire:     "#14 AWG",
                 aluminumWire:   "#12 AWG",
-                
-
             },
 
             {   
-                id:             1,
                 productCode:    "HOM220",
                 productPoles:   "DOUBLE", 
                 productAmps:    20,
@@ -114,12 +101,9 @@ var app = new Vue({
                 productImage:   "ASSETS/IMAGES/HOM220.jpeg",
                 copperWire:     "#14 AWG",
                 aluminumWire:   "#12 AWG",
-                
-
             },
 
             {   
-                id:             1,
                 productCode:    "HOM225",
                 productPoles:   "DOUBLE", 
                 productAmps:    25,
@@ -130,7 +114,6 @@ var app = new Vue({
             },
 
             {   
-                id:             1,
                 productCode:    "HOM230",
                 productPoles:   "DOUBLE", 
                 productAmps:    30,
@@ -141,7 +124,6 @@ var app = new Vue({
             },
 
             {   
-                id:             1,
                 productCode:    "HOM240",
                 productPoles:   "DOUBLE", 
                 productAmps:    40,
@@ -153,7 +135,6 @@ var app = new Vue({
 
 
             {   
-                id:             1,
                 productCode:    "HOM250",
                 productPoles:   "DOUBLE", 
                 productAmps:    50,
