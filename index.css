@@ -1,5 +1,7 @@
 body {
-    background-color: darkgray;
+    background-image: url("ASSETS/IMAGES/electowr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -8,7 +10,27 @@ header {
     align-items:        center;
 
     height:             10vh;
+    margin-bottom:      2vh;
 
-    font-family:        'Racing Sans One', cursive;
+    background-color:   rgba(0,0,0,.6);
+
+    font-family:        Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:          3rem;
+    color:              rgba(255,255,255,.6);
+}
+
+footer {
+    display:            flex;
+    justify-content:    center;
+    align-items:        flex-end;
+
+    height:             10vh;
+    margin-top:         10vh;
+    
+
+    background-color:   rgba(0,0,0,.6);
+
+    font-family:        Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:          3rem;
+    color:              rgba(255,255,255,.6);
 }
