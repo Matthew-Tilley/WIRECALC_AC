@@ -3,7 +3,7 @@ body {
     background-image:       url("ASSETS/IMAGES/electowr.jpg");
     background-repeat:      no-repeat;
     background-size:        cover;
-    background-attachment: fixed;
+    background-attachment:  fixed;
 
 }
 
@@ -33,7 +33,10 @@ header {
 
 footer {
 
-    background:             rgba(0,0,0,.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:             rgba(48,48,48,.7);
     height:                 15vh;
     width:                  100vw;
     position:               fixed;
@@ -41,12 +44,21 @@ footer {
     left:                   0;
     margin-top:             20vh;
 
+   
+
 }
 
 .logo {
 
     height:                 12vh;
+    margin-right:           1vw;
     
 }
 
+h2 {
+
+    font-family:            Arial, Helvetica, sans-serif    
+    font-size:              rem;
+    color:                  rgba(255,255,255,1);
+}
 
