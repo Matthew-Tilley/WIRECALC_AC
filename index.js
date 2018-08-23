@@ -202,9 +202,7 @@ var app = new Vue({
 
         },   /* END setValidBreaker METHOD */
 
-        $(document).ready(function(){
-            document.write("IT WORKS");
-        });
+        
 
 
     },
