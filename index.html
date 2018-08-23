@@ -18,7 +18,7 @@
             
             <div class="ui segment inverted grey huge">
 
-            <p>Enter the voltage of your circuit:</p>        
+            <p class= "whitetext">Enter the voltage of your circuit:</p>        
 
             <div class="ui radio checkbox">
 
@@ -29,7 +29,7 @@
                         v-model="voltage"
                         v-on:change="maximumWattage()"> 
                 
-                <label>120 volts</label>
+                <label class="whitetext">120 volts</label>
 
             </div>
             
@@ -72,23 +72,23 @@
             <table class = "ui celled table inverted">
                 
                 <tr>
-                    <td>PRODUCT SERIES</td>
-                    <td>{{validBreaker && validBreaker.productSeries}}</td>
+                    <td class= "whitetext">PRODUCT SERIES</td>
+                    <td class= "whitetext">{{validBreaker && validBreaker.productSeries}}</td>
                 </tr>
 
                 <tr>
-                    <td>AMPERAGE RATING</td>
-                    <td>{{validBreaker && validBreaker.productAmps}}</td>
+                    <td class= "whitetext">AMPERAGE RATING</td>
+                    <td class= "whitetext">{{validBreaker && validBreaker.productAmps}}</td>
                 <tr>
 
                 <tr>
-                    <td>MANUFACTURER CODE:</td>
-                    <td>{{validBreaker && validBreaker.productCode}}</td>
+                    <td class= "whitetext">MANUFACTURER CODE:</td>
+                    <td class= "whitetext">{{validBreaker && validBreaker.productCode}}</td>
                 </tr>
 
                 <tr>
-                    <td>POLE CONFIGURATION:</td>
-                    <td>{{validBreaker && validBreaker.productPoles}}</td>
+                    <td class= "whitetext">POLE CONFIGURATION:</td>
+                    <td class= "whitetext">{{validBreaker && validBreaker.productPoles}}</td>
                 </tr>
 
             </table>
@@ -125,6 +125,11 @@
                     </tr>
 
             </table>
+
+
+            <div class= "ui basic modal">
+
+            </div>
        
             </div>  <!-- END SEMANTIC-UI CONTAINER DIV -->
     
@@ -144,11 +149,7 @@
 
         </footer>
 
-    <script
-            src="https://code.jquery.com/jquery-3.3.1.js"
-            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous">
-    </script>      
+ 
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> 
     <script src="https://unpkg.com/semantic-ui-vue/dist/umd/semantic-ui-vue.min.js"></script>   
