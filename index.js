@@ -203,7 +203,7 @@ var app = new Vue({
         },   /* END setValidBreaker METHOD */
 
         currentField: function() {
-            document.write("IT WORKS");
+            
         }
 
 
