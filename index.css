@@ -21,9 +21,13 @@ header {
 }
 
 
-.test{
-    height: 20vh;
-    background-color: purple;
+footer {
+    height: 15vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,.6);
     margin-top: 2vh;
 }
 
