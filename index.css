@@ -42,7 +42,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background:             rgba(48,48,48,.85);
+    background:             rgba(48,48,48,.95);
     height:                 15vh;
     width:                  100vw;
     position:               fixed;
