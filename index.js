@@ -209,6 +209,11 @@ var app = new Vue({
 }); /* END VUE APP INSTANCE */
 
 
+$('.ui.modal')
+  .modal('show')
+;
+
+
 
 
 

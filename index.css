@@ -91,5 +91,11 @@ h5 {
 
 .blacktext {
     color: black;
+    font-size: 1.25rem;
+}
+
+.whitetext {
+    font-size: 1.25rem;
+    
 }
 
