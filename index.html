@@ -15,8 +15,7 @@
             
             <div class="ui container"> 
             
-            <div class="ui segment inverted orange huge">      
-            
+            <div class="ui segment inverted orange huge">
             <p>Enter the voltage of your circuit:</p>        
 
             <div class="ui radio checkbox">
@@ -58,27 +57,15 @@
             <div class= "ui segment inverted grey huge ">
                 <p>Enter the maximum amperage of your circuit:</p>
                 
-                <div class="ui dropdown floated">
-                    <div class="ui menu"> 
-                        <div class="item">
-                            SOMETHING
-                        </div>
-                        <div class="item">
-                            SOMETHING
-                        </div>
-                        <div class="item">
-                            SOMETHING
-                        </div>
-                    </div>
-
-                </div>
+                
 
                 <select v-model="selectedAmps"
                     v-on:change="maximumWattage()">
 
-                <option v-for="amps in amperages">{{amps}}</option>
+                    <option v-for="amps in amperages">{{amps}}</option>
 
-            </select>
+                </select>
+
             </div>
 
             <div class= "ui segment inverted grey huge">
@@ -111,15 +98,14 @@
 
             </table>
 
-            <div class="ui segment">
+            
             <img    class = "ui image medium"
-                    v-bind:src="validBreaker && validBreaker.productImage">
-            </div>
+                    v-bind:src="validBreaker && validBreaker.productImage"
+                    v-if="validBreaker.productImage">
+           
 
             
-
-
-            
+           
 
 
             <table class = "ui celled table inverted orange padded">

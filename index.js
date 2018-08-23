@@ -155,8 +155,16 @@ var app = new Vue({
             
             this.setValidBreaker();
 
-            return this.maxWatts = (this.selectedAmps * this.voltage) * .8;
-            // Calculating 80% of absolute maximum for a margin of safety.
+            if (this.voltage || this.selectedAmps == "")
+            {
+                this.maxWatts = "";
+            }
+
+            else
+            {
+                return this.maxWatts = (this.selectedAmps * this.voltage) * .8;
+                // Calculating 80% of absolute maximum for a margin of safety.
+            }
 
 
             
