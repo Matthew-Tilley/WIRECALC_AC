@@ -15,7 +15,8 @@
             
             <div class="ui container"> 
             
-            <div class="ui segment inverted orange huge">
+            <div class="ui segment inverted orange huge currentField">
+                
             <p>Enter the voltage of your circuit:</p>        
 
             <div class="ui radio checkbox">
@@ -54,7 +55,7 @@
 
                 
              
-            <div class= "ui segment inverted grey huge ">
+            <div class= "ui segment inverted grey huge">
                 <p>Enter the maximum amperage of your circuit:</p>
                 
                 
@@ -72,7 +73,7 @@
                 <p>The maximum safe wattage of your circuit is: {{maxWatts}} </p>
             </div>
             
-            <button v-on:hover="currentField()">TEST</button>>
+            <button class = "currentField" hover="currentField()" v-on:hover="currentField()">TEST</button>>
 
            
 

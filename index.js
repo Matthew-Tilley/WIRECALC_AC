@@ -202,9 +202,9 @@ var app = new Vue({
 
         },   /* END setValidBreaker METHOD */
 
-        currentField: function() {
-          $(this).append("LKJASLKJSDALKJSAD");
-        }
+        $(document).ready(function(){
+            document.write("IT WORKS");
+        });
 
 
     },

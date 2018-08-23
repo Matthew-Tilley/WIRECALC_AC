@@ -20,3 +20,10 @@ header {
     color:              rgba(255,255,255,.6);
 }
 
+
+.currentField:hover {
+
+    background-color: purple;
+    
+}
+
