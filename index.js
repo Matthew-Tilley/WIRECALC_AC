@@ -202,7 +202,9 @@ var app = new Vue({
 
         },   /* END setValidBreaker METHOD */
 
-        
+        test: function() {
+            document.write("LKAJSDLKJASLKJASDKLJ");
+        }
 
         
 
