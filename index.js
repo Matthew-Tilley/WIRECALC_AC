@@ -200,7 +200,7 @@ var app = new Vue({
                 }
             }
 
-        }
+        }   /* END setValidBreaker METHOD */
 
 
     },
