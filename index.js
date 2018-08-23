@@ -157,7 +157,7 @@ var app = new Vue({
 
             if (this.voltage || this.selectedAmps == "")
             {
-                this.maxWatts = "";
+                this.maxWatts = "NOTHING";
             }
 
             else

@@ -59,10 +59,11 @@
                 
                 
 
-                <select v-model="selectedAmps"
-                    v-on:change="maximumWattage()">
+                <select v-model=        "selectedAmps"
+                        v-on:change=    "maximumWattage()">
 
-                    <option v-for="amps in amperages">{{amps}}</option>
+                    <option v-for="amps in amperages" 
+                            v-on:change= "maximumWattage()">{{amps}}</option>
 
                 </select>
 
