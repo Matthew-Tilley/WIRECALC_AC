@@ -20,6 +20,14 @@ header {
     color:              rgba(255,255,255,.6);
 }
 
-
+footer {
+background-color: black;
+height: 15vh;
+width: 100vw;
+position: fixed;
+bottom: 0;
+left: 0;
+margin-top: 20vh;
+}
 
 
