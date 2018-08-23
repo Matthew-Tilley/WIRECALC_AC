@@ -209,9 +209,8 @@ var app = new Vue({
 }); /* END VUE APP INSTANCE */
 
 
-$('.ui.modal')
-  .modal('show')
-;
+let functionX = $('.ui.modal')
+  .modal('show');
 
 
 
