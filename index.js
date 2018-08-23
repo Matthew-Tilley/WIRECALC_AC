@@ -203,7 +203,7 @@ var app = new Vue({
         },   /* END setValidBreaker METHOD */
 
         currentField: function() {
-          $(this).css("background-color", "blue");
+          $(this).append("LKJASLKJSDALKJSAD");
         }
 
 
