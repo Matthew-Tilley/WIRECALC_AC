@@ -133,9 +133,16 @@
             </table>
 
 
-            <div class= "ui basic modal">
+            <button class="ui button black"
+                    @click="toggle">CLICK ME</button>
+
+            <div    class="ui modal"
+                    v-model="open">
 
             </div>
+
+
+
        
             </div>  <!-- END SEMANTIC-UI CONTAINER DIV -->
     
@@ -155,10 +162,10 @@
             <img    class="logo"
                     src="ASSETS/IMAGES/TDS2.png">
 
-                    <div class="LOC-T-01">
-                    <h2>Tilley Digital Studio</h2>
-                    <h5>Copyright &#169; 2018 Matthew P. Tilley</h5>
-                    </div>    
+            <div class="LOC-T-01">
+                <h2>Tilley Digital Studio</h2>
+                <h5>Copyright &#169; 2018 Matthew P. Tilley</h5>
+            </div>    
 
         </footer>
 

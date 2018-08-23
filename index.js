@@ -4,7 +4,8 @@ var app = new Vue({
     
     data: {
 
-        
+        open:    false,
+
         voltage: null,
 
         maxWatts: null,
@@ -78,7 +79,6 @@ var app = new Vue({
             },
 
         ],
-
 
         breakers240: [
             
@@ -197,6 +197,11 @@ var app = new Vue({
             }
 
         },   /* END setValidBreaker METHOD */
+
+
+        toggle: function() {
+            this.open = !this.open;
+        }
 
       
 
