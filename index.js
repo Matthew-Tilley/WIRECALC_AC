@@ -2,7 +2,6 @@ var app = new Vue({
     
     el:     "#app",
     
-    
     data: {
 
         
@@ -160,9 +159,6 @@ var app = new Vue({
                 // Calculating 80% of absolute maximum for a margin of safety.
             }
 
-
-            
-
         }, 
 
         setActive: function(index) {
@@ -202,10 +198,7 @@ var app = new Vue({
 
         },   /* END setValidBreaker METHOD */
 
-        test: function() {
-        
-            
-        }
+      
 
         
 
@@ -222,9 +215,6 @@ var app = new Vue({
 
 
 
-$(document).ready(function(){
-    $(this).css("background-color", "blue");
-});
 
 
 
