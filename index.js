@@ -201,15 +201,9 @@ var app = new Vue({
 
         addToCart: function() {
 
-            this.userBasket.push(this.test);
+            this.userBasket = this.userBasket.push(this.test);
             console.log(userBasket);
         },
-        
-
-      
-
-        
-
 
     },
 
