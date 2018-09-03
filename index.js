@@ -201,7 +201,7 @@ var app = new Vue({
 
         addToCart: function() {
 
-            this.userBasket = this.userBasket.push(this.test);
+            this.userBasket = this.userBasket.push(this.test + 999999);
             console.log(this.userBasket);
         },
 
