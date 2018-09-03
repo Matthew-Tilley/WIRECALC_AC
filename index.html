@@ -103,6 +103,11 @@
             <img    class = "ui image medium"
                     v-bind:src="validBreaker && validBreaker.productImage"
                     v-if="validBreaker.productImage">
+
+            <button class="ui button black"
+                    @click="addToCart()">
+                    ADD TO CART
+            </button>
  
 
             <table class = "ui celled table inverted orange padded">
