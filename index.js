@@ -144,6 +144,8 @@ var app = new Vue({
             },
         ],
 
+        userBasket: [],
+
               
     },  /* END OF "DATA" SECTION */
     
