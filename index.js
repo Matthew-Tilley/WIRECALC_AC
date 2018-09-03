@@ -202,7 +202,7 @@ var app = new Vue({
         addToCart: function() {
 
             this.userBasket = this.userBasket.push(this.test);
-            console.log(this.userBasket[0]);
+            console.log(this.userBasket + "VVVVVVVVVVVRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR");
         },
 
     },
