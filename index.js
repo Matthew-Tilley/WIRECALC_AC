@@ -169,10 +169,7 @@ var app = new Vue({
 
             this.active = index;
 
-        },
-
-        
-
+        },       
 
         setValidBreaker: function() {
 
@@ -201,7 +198,6 @@ var app = new Vue({
             }
 
         },   /* END setValidBreaker METHOD */
-
 
         addToCart: function() {
 
