@@ -146,6 +146,8 @@ var app = new Vue({
 
         userBasket: [],
 
+        test: "LKAJSDLKAJSDLKJASDLKJASDLKJASD",
+
               
     },  /* END OF "DATA" SECTION */
     
@@ -201,6 +203,11 @@ var app = new Vue({
         },   /* END setValidBreaker METHOD */
 
 
+        addToCart: function() {
+
+            this.userBasket.push(this.test);
+            console.log(userBasket);
+        },
         
 
       
