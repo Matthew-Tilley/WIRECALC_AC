@@ -201,9 +201,7 @@ var app = new Vue({
         },   /* END setValidBreaker METHOD */
 
 
-        toggle: function() {
-            this.open = !this.open;
-        }
+        
 
       
 
