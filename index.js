@@ -204,7 +204,7 @@ var app = new Vue({
             this.test = this.validBreaker.productCode;
             
             this.userBasket.push({
-                    
+        
             });
 
             console.log(this.test);
