@@ -199,14 +199,15 @@ var app = new Vue({
 
         },   /* END setValidBreaker METHOD */
 
-        addToCart: function(item) {
+        addToCart: function(validBreaker) {
             
             this.userBasket.push({
-                productCode: null,
+
+                code: this.validBreaker.productCode,
 
             });
 
-            console.log(this.userBasket.productCode);
+            console.log(this.userBasket.code);
         },
 
     },
