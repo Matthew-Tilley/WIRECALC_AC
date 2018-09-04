@@ -205,9 +205,11 @@ var app = new Vue({
 
                 code: this.validBreaker.productCode,
 
+
             });
 
-            console.log(this.userBasket.code);
+            console.log(this.userBasket);
+            
         },
 
     },
