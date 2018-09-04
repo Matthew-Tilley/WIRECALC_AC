@@ -202,7 +202,7 @@ var app = new Vue({
         addToCart: function(item) {
             
             this.userBasket.push({
-                productCode: "",
+                productCode: null,
 
             });
 
