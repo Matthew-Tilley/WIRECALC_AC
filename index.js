@@ -201,8 +201,10 @@ var app = new Vue({
 
         addToCart: function(item) {
 
+            this.test = this.validBreaker.productCode;
+            
             this.userBasket.push({
-                    test: this.validBreaker.productCode,
+                    
             });
 
             console.log(this.test);
