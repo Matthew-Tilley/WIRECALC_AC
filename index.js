@@ -200,14 +200,13 @@ var app = new Vue({
         },   /* END setValidBreaker METHOD */
 
         addToCart: function(item) {
-
-            this.test = this.validBreaker.productCode;
             
             this.userBasket.push({
-        
+                productCode: "",
+
             });
 
-            console.log(this.test);
+            console.log(this.userBasket.productCode);
         },
 
     },
